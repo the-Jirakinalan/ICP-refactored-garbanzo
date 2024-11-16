@@ -1,10 +1,60 @@
-# `Aoi`
+# `Favorite Number Tracker`
 
-Welcome to your new `Aoi` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+This is a simple Motoko-based Internet Computer application for tracking users' favorite numbers. Users can set, retrieve, and clear their favorite numbers.
+
+---
+
+## **Project Overview**
+
+The Favorite Number Tracker application leverages the Internet Computer’s decentralized storage and computation to maintain user-specific data.
+
+### **Features**
+
+- Set a favorite number for any user.
+- Retrieve a user's favorite number.
+- Clear a user's favorite number.
+
+---
+
+## **Deployment Details**
+
+### **Canister IDs**
+
+The project is deployed on the Internet Computer with the following canister IDs:
+
+- **Backend Canister**: `ikirl-dyaaa-aaaai-aqf3q-cai`
+
+### **Mainnet URL**
+
+You can access the application on the Internet Computer via the following URL:
+
+[https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=ikirl-dyaaa-aaaai-aqf3q-cai](https://xxxxx-xxxxx-xxxxx-xxxxx-cai.icp0.io)
+
+---
+
+## **Usage Instructions**
+
+### **1. Prerequisites**
+
+- Install the [DFINITY SDK](https://internetcomputer.org/docs/current/developer-docs/setup/install) (dfx).
+- Ensure your wallet is funded with ICP tokens for deployment on the mainnet.
+
+### **2. Interact with the Application**
+
+The application is designed for programmatic interaction using commands. Below are examples of how to interact with the application.
+
+#### **Set a Favorite Number**
+
+Call the `setFavoriteNumber` function with the username and their favorite number:
+
+```bash
+dfx canister call <backend-canister-id> setFavoriteNumber '("Alice", 42)'
+
+Welcome to your new `Favorite Number Tracker` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
-To learn more before you start working with `Aoi`, see the following documentation available online:
+To learn more before you start working with `Favorite Number Tracker`, see the following documentation available online:
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
