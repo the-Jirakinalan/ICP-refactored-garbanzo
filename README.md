@@ -49,6 +49,7 @@ Call the `setFavoriteNumber` function with the username and their favorite numbe
 
 ```bash
 dfx canister call <backend-canister-id> setFavoriteNumber '("Alice", 42)'
+```
 
 Welcome to your new `Favorite Number Tracker` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
